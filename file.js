@@ -19,9 +19,9 @@ const fs = require("fs");
 
 
 
-const createFiles = () => {
-  fs.writeFileSync("example.js", "console.log('Hello from the file create')")
+// const createFiles = () => {
+//   fs.writeFileSync("example.js", "console.log('Hello from the file create')")
 
-}
+// }
 
-module.exports = createFiles;
+// module.exports = createFiles;
