@@ -1,10 +1,14 @@
 const fs = require("fs");
+const os = require("os");
+
+console.log(os.cpus().length);
+
 // const cFiles = require("./file");
-const { moveFile } = require("./newOne/example");
+// const { moveFile } = require("./newOne/example");
 
 // Create File
 // cFiles();
-moveFile();
+// moveFile();
 
 // Read just created file
 // fs.readFile("./example.js", "utf-8", (err, result) => {
@@ -16,4 +20,3 @@ moveFile();
 //     // fs.unlinkSync("./example.js")
 //   }
 // });
-
