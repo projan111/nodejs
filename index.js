@@ -2,7 +2,9 @@ const http = require("http");
 const fs = require("fs");
 
 const createServer = http.createServer((req, res) => {
+  if (req.url === "/favicon.ico") return res.end();
   const log = `${Date.now()}: ${req.url}/ New data Received \n`;
+
   fs.appendFile("stats.txt", log, (err, data) => {
     switch (req.url) {
       case "/":
