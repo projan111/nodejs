@@ -5,7 +5,7 @@ const url = require("url");
 const createServer = http.createServer((req, res) => {
   // Disabling the favicon
   if (req.url === "/favicon.ico") return res.end();
-  const log = `${Date.now()}: ${req.url}/ New data Received \n`;
+  const log = `${Date.now()}:${req.method} ${req.url}/ New data Received \n`;
 
   // using url package targeting the specific value from the req.url
   const myUrl = url.parse(req.url, true);

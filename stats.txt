@@ -1,9 +1,2 @@
-1724231120821: // New data Received 
-1724239144897: /about?name=rojan&roll=11/ New data Received 
-1724239252252: /about?name=rojan&roll=11/ New data Received 
-1724239357400: /about?name=rojan&roll=11/ New data Received 
-1724239381120: /about?name=rojan&roll=11$pet=dog/ New data Received 
-1724239399410: /about?name=rojan&roll=11&pet=dog/ New data Received 
-1724239505113: /about?name=rojan&roll=11&pet=dog/ New data Received 
-1724239854870: /about?name=rojan&roll=11&pet=dog/ New data Received 
-1724239906042: /search?search_query=basic+javascript+tutorial/ New data Received 
+1724240980679:GET // New data Received 
+1724240992195:GET /about/ New data Received 
